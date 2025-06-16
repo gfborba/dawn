@@ -931,7 +931,7 @@
               "default": "Share"
             },
             "featured_image_info": {
-              "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
+              "content": "If you include a link in social media posts, the page's featured image will be shown as the preview image. [Learn more](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
               "content": "A store title and description are included with the preview image. [Learn more](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
@@ -968,7 +968,7 @@
           }
         },
         "hide_variants": {
-          "label": "Hide unselected variants’ media on desktop"
+          "label": "Hide unselected variants' media on desktop"
         },
         "enable_video_looping": {
           "label": "Loop video"
@@ -1409,6 +1409,30 @@
             "label": "Right"
           },
           "label": "Mobile alignment"
+        },
+        "header_media_settings": {
+          "content": "Media settings"
+        },
+        "header_media": {
+          "content": "Media"
+        },
+        "paragraph_media": {
+          "content": "Choose an image or video to display in this section. If both are selected, the video will take priority."
+        },
+        "header_image": {
+          "content": "Image"
+        },
+        "paragraph_image": {
+          "content": "Recommended: high-resolution images. Will be shown if no video is selected."
+        },
+        "header_video": {
+          "content": "Video"
+        },
+        "paragraph_video": {
+          "content": "Upload a video. The video will be shown instead of the image if selected."
+        },
+        "video": {
+          "label": "Video"
         }
       },
       "blocks": {
