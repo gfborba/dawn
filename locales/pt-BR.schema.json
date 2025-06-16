@@ -1229,13 +1229,9 @@
           "label": "Posição"
         },
         "content_layout": {
-          "options__1": {
-            "label": "Sem sobreposição"
-          },
-          "options__2": {
-            "label": "Com sobreposição"
-          },
-          "label": "Layout"
+          "label": "Layout",
+          "options__1": { "label": "Sem sobreposição" },
+          "options__2": { "label": "Com sobreposição" }
         },
         "mobile_content_alignment": {
           "options__1": {
@@ -1284,6 +1280,9 @@
         },
         "video_loop": {
           "label": "Vídeo em looping"
+        },
+        "header_text_settings": {
+          "content": "Configurações de texto"
         }
       },
       "blocks": {

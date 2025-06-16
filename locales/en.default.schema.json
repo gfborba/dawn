@@ -1439,6 +1439,9 @@
         },
         "video_loop": {
           "label": "Loop video"
+        },
+        "header_text_settings": {
+          "content": "Text settings"
         }
       },
       "blocks": {
@@ -3269,6 +3272,14 @@
           "options__2": {
             "label": "Image second"
           }
+        },
+        "header_text_settings": {
+          "content": "Text settings"
+        },
+        "content_layout": {
+          "label": "Layout",
+          "options__1": { "label": "No overlap" },
+          "options__2": { "label": "Overlap" }
         }
       },
       "blocks": {
