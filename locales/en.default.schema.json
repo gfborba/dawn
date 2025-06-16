@@ -1433,6 +1433,9 @@
         },
         "video": {
           "label": "Video"
+        },
+        "video_autoplay": {
+          "label": "Autoplay video"
         }
       },
       "blocks": {
