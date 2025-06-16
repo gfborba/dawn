@@ -1278,6 +1278,12 @@
         },
         "video": {
           "label": "Vídeo"
+        },
+        "video_autoplay": {
+          "label": "Vídeo com autoplay"
+        },
+        "video_loop": {
+          "label": "Vídeo em looping"
         }
       },
       "blocks": {

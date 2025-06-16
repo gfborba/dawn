@@ -43,7 +43,7 @@
             {% endif %}
           >
             {%- if section.settings.video != blank -%}
-              {{ section.settings.video | video_tag: controls: true, autoplay: section.settings.video_autoplay, loop: false, muted: section.settings.video_autoplay }}
+              {{ section.settings.video | video_tag: controls: true, autoplay: section.settings.video_autoplay, loop: section.settings.video_loop, muted: section.settings.video_autoplay }}
             {%- elsif section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -162,6 +162,12 @@
       "type": "checkbox",
       "id": "video_autoplay",
       "label": "t:sections.image-with-text.settings.video_autoplay.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "video_loop",
+      "label": "t:sections.image-with-text.settings.video_loop.label",
       "default": true
     },
     {
