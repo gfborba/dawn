@@ -39,7 +39,11 @@
             {% endif %}
 
             {% if section.settings.height == 'adapt' and has_media %}
-              style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+              {% if section.settings.image != blank %}
+                style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+              {% elsif section.settings.video != blank %}
+                style="padding-bottom: 56.25%;"  {# 16:9 aspect ratio padrão para vídeo #}
+              {% endif %}
             {% endif %}
           >
             {%- if section.settings.video != blank -%}
