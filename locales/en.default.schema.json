@@ -3192,6 +3192,9 @@
               "options__3": {
                 "label": "Right"
               }
+            },
+            "image_mobile": {
+              "label": "Mobile image"
             }
           }
         }
