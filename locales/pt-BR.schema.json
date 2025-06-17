@@ -1229,13 +1229,9 @@
           "label": "Posição"
         },
         "content_layout": {
-          "options__1": {
-            "label": "Sem sobreposição"
-          },
-          "options__2": {
-            "label": "Com sobreposição"
-          },
-          "label": "Layout"
+          "label": "Layout",
+          "options__1": { "label": "Sem sobreposição" },
+          "options__2": { "label": "Com sobreposição" }
         },
         "mobile_content_alignment": {
           "options__1": {
@@ -1254,6 +1250,39 @@
         },
         "header_colors": {
           "content": "Cores"
+        },
+        "header_media_settings": {
+          "content": "Configurações da mídia"
+        },
+        "header_media": {
+          "content": "Mídia"
+        },
+        "paragraph_media": {
+          "content": "Escolha uma imagem ou vídeo para exibir nesta seção. Se ambos forem selecionados, o vídeo terá prioridade."
+        },
+        "header_image": {
+          "content": "Imagem"
+        },
+        "paragraph_image": {
+          "content": "Recomendado: imagens em alta resolução. Será exibida se nenhum vídeo for selecionado."
+        },
+        "header_video": {
+          "content": "Vídeo"
+        },
+        "paragraph_video": {
+          "content": "Faça upload de um vídeo. O vídeo será exibido no lugar da imagem, se selecionado."
+        },
+        "video": {
+          "label": "Vídeo"
+        },
+        "video_autoplay": {
+          "label": "Vídeo com autoplay"
+        },
+        "video_loop": {
+          "label": "Vídeo em looping"
+        },
+        "header_text_settings": {
+          "content": "Configurações de texto"
         }
       },
       "blocks": {
