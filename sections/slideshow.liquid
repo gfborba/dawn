@@ -140,14 +140,28 @@
               {{
                 block.settings.image
                 | image_url: width: 3840
-                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority, class: 'slideshow__image slideshow__image--desktop'
               }}
+              {%- if block.settings.image_mobile != blank -%}
+                {{
+                  block.settings.image_mobile
+                  | image_url: width: 750
+                  | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority, class: 'slideshow__image slideshow__image--mobile'
+                }}
+              {%- endif -%}
             {%- else -%}
               {{
                 block.settings.image
                 | image_url: width: 3840
-                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths, class: 'slideshow__image slideshow__image--desktop'
               }}
+              {%- if block.settings.image_mobile != blank -%}
+                {{
+                  block.settings.image_mobile
+                  | image_url: width: 750
+                  | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths, class: 'slideshow__image slideshow__image--mobile'
+                }}
+              {%- endif -%}
             {%- endif -%}
           {%- else -%}
             {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
