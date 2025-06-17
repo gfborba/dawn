@@ -2847,6 +2847,9 @@
           "label": "Descrição da apresentação de slides",
           "info": "Descreva a apresentação de slides para quem usa leitores de tela",
           "default": "Apresentação de slides sobre nossa marca"
+        },
+        "image_mobile": {
+          "label": "Imagem para dispositivos móveis"
         }
       },
       "blocks": {
@@ -2946,6 +2949,9 @@
             },
             "header_colors": {
               "content": "Cores"
+            },
+            "image_mobile": {
+              "label": "Imagem para dispositivos móveis"
             }
           }
         }
